@@ -1,0 +1,87 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	color:red;
+	font-size: 2em;
+    line-height: 1.4em;
+}
+
+
+header {
+color:#300504;
+	font-size: 12px;
+	line-height: 3px;
+text-align: center;
+}
+h1{
+
+	letter-spacing: 5px;
+}
+
+h2{
+
+	letter-spacing: 5px;
+}
+body {
+	background-color: #f7807c;
+	font-family: "Helvetica Neue", Helvetica;
+
+	font-size: 100px;
+	line-height: 200px;
+	text-align: center;
+
+}
+
+div { margin: 50px 5px; }
+	
+
+.Looking {
+	font-size: 150px;
+
+
+
+}
+.Through {
+	position:relative;
+	font-size: 120px;
+	top:50px;
+	color:#bf3d3d;
+
+
+}
+.Backed {
+	position:relative;
+	top:10px;
+	color:#ed3b3b;
+}
+
+.Bent{
+
+	position:relative;
+	top: 20px;
+	color:#c25555;
+}
+
+
+footer{
+	color:#f5aba9;
+	font-size: 12px;
+	line-height: 150px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+#container {
+	
+}
+
+
+
+
+
