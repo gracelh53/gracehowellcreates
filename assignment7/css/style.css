@@ -23,18 +23,21 @@ figure.responsive iframe {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
+
 
 img {
+	width: 100%;
 
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	width: 40%;
-	height:80%;
 }
+
+figure{
+
+	margin:0px;
+}
+
 
 iframe {
 	pos
@@ -42,9 +45,9 @@ iframe {
 <figure class="responsive">
      <iframe>https://youtu.be/_OPFr5ofkq8?si=PhAAFfpB79WpmpZw</iframe>
 </figure>
-main {
-	display:flex;
-}
+
+
+
 
 body {
 	
@@ -56,9 +59,21 @@ body {
 
 #container {
 	background-color:#f2859d;
-	
+	border:1px solid black;
+	padding: 10px;
 }
 
+div#container {
 
+	width:78%;
+	margin:auto;
+}
 
+#container {
+	min-width:85%;
+}
+main {
+
+	display:flex;
+}
 
